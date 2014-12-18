@@ -1,3 +1,11 @@
+h1 {
+  text-align: center;
+}
+
+button.btn {
+  text-transform: uppercase;
+}
+
 #splash {
   padding: 0px;
 }
@@ -12,4 +20,54 @@
   padding-bottom: 25px;
   margin-left: 18%;
   margin-right: 18%;
+}
+
+#url-builder {
+  width: 80%;
+  margin: 0px auto;
+  padding-bottom: 50px;
+  border: 1px #000000;
+}
+
+#url-builder p {
+  font-size: 14px;
+}
+
+.url-builder-content-box {
+  height: 160px;
+  padding-left: 15px;
+  padding-right: 40px;
+}
+
+.url-builder-content-box h4 {
+  text-align: left;
+}
+
+.url-builder-content-box p {
+  text-align: left;
+}
+.url-builder-content-box input {
+  width: 100%;
+  padding: 8px;
+}
+
+.url-builder-submit {
+  background-color: #dddddd;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.url-builder-result {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.url-builder-result input {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.url-builder-result button {
+  margin-left: 5px;
 }

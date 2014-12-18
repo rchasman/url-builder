@@ -1,12 +1,22 @@
-<h1>Url Builder - Track Your Marketing Campaigns and Links</h1>
+<%= stylesheet_link_tag 'bootstrap.min', media: :all %>
 
-<p>
-  By adding some extra data to your external links, you’ll know when people come
-  from those links. Most analytics tools (like KISSmetrics and Google Analytics)
-  track those links automatically and will tell you how many customers you get
-  from each campaign. Fill out the form to get your link built.
-</p>
+<div id='splash' class='jumbotron'>
+  <%= image_tag 'splash.png', width: '100%' %>
+</div>
+
+<div class='pitch-font pitch-spacing'>
+  <p>
+    By adding some extra data to your external links, you’ll know when people come
+    from those links. Most analytics tools (like KISSmetrics and Google Analytics)
+    track those links automatically and will tell you how many customers you get
+    from each campaign. Fill out the form to get your link built.
+  </p>
+</div>
+
+<hr>
+<h1>Fill out the form to build your link.</h1>
 
 <div id="url-builder">
-  <p>Loading <i class="fa fa-spinner fa-spin"></i></p>
+  <p>Loading <i class='fa fa-spinner fa-spin'></i></p>
 </div>
+
